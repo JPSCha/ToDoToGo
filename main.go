@@ -1,16 +1,9 @@
 package main
 
 import (
-	"gotask/app"
-	"log"
-	"os"
+	"fmt"
 )
 
 func main() {
-	println("Hello, World!")
-
-	application := app.Generate()
-	if err := application.Run(os.Args); err != nil {
-		log.Fatal(err)
-	}
+	fmt.Println("Hello, World!")
 }
